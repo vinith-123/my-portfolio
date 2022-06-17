@@ -1,0 +1,197 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+
+}
+body{
+    display: grid;
+}
+ .logo{
+ 	display: flex;
+ 	justify-content: start;
+ 	margin-left: 40px;
+ 	margin-top: 60px;
+
+ }
+
+ .logo i{
+ 	height: 55px;
+ 	width: 55px;
+ 	background: transparent;
+ 	border: 2px solid #2ecc71;
+ 	color: #2ecc71;
+ 	border-radius: 50%;
+ 	align-items: center;
+ 	display: inline-flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	font-size: 20px;
+ 	cursor: pointer;
+
+ }
+
+ .para{
+ 	margin-top: 20px;
+ 	font-size: 20px;
+ }
+ .nav-bar{
+ 	display: flex;
+ 	justify-content: center;
+ 	text-transform: capitalize;
+ 	align-items: flex-end;
+    margin-left: 500px;
+    margin-bottom: 100px;
+ }
+
+ .nav-bar ul {
+ 	text-decoration:none;
+ 	}
+
+ 	.nav-bar ul li{
+ 	display: inline-flex;
+ 	justify-content: space-between;
+ 	padding: 20px;
+
+ 	}
+
+ 	.nav-bar ul li a{
+ 		text-decoration: none;
+ 		color: #2ecc71;
+ 		cursor: pointer;
+
+
+ 	}
+
+ 	a:hover{
+ 		border: 1px solid black;
+ 		background-color: black;
+ 		border-radius: 5px;
+ 	}
+
+ 	.aboutme{
+ 		display: inline-block;
+ 		box-sizing: border-box;
+ 		 
+}
+.description{
+ 		background-color: black;
+ 		color: white;
+ 		border: 1px solid black;
+ 		border-radius: 50%;
+ 		display: flex;
+ 		width: 50%;
+ 		height: 437px;
+ 		float:left;
+ 		align-items: center;
+        text-align: center;
+    display: inline-block;
+    margin-left:60px;
+    padding-top: 90px;
+    margin-top: 20px;
+
+ 	
+ 	}
+ 	
+ 	img{
+ 		display: flex;
+ 		width: 40%;
+ 		float: right;
+ 		border-radius: 50px;
+ 	margin-right: 50px;
+ 		margin-top: 60px;
+ 		 	
+ 	}
+
+.span1{
+	color: #2ecc71;
+}
+.span2{
+	color:#2ecc71;
+}
+
+.main2{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#education{
+    background-color: black;
+    border: 2px solid ;
+    border-radius: 50%;
+    margin-top: 50px;
+    width: 50%;
+    height: 200px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    margin-left: 50px;
+
+
+}
+.line{
+    width: 20%;
+ margin-left: 260px;
+}
+
+#skills{
+    background-color: black;
+    border: 1px solid;
+    border-radius: 10%;
+    color: white;
+    margin-right: 35px;
+    height: 300px;
+    width: 40%;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.span3{
+    color: #2ecc71;
+}
+.span4{
+    color: #2ecc71;
+
+}
+.span5{
+    color: #2ecc71;
+
+}
+.span6{
+    color: #2ecc71;
+}
+.span7{
+    color: #2ecc71;
+}
+.span8{
+    color:#2ecc71;
+}
+ .span9{
+    color: #2ecc71;
+ }
+ .span10{
+    color: #2ecc71;
+ }
+ .span11{
+    color: #2ecc71;
+ }
+ .span12{
+    color: #2ecc71;
+ }
+
+ footer{
+    background-color: black;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    color: white;
+margin-top: 100px;
+height: 200px;
+padding-top: 50px;
+margin-left: 400px;
+ }
+ 
